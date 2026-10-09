@@ -2,7 +2,7 @@
 
 ## Scrum im Überblick
 
-- **Sprintlänge:** 2 Wochen _(mit dem Team bestätigen)_
+- **Sprintlänge:** 1 Wochen _(mit dem Team bestätigen)_
 - **Sprint Planning:** Stories aus dem Product Backlog ins Sprint Backlog ziehen und per Planning Poker schätzen
 - **Daily Scrum:** 2–3× pro Woche, kurz in den Discussions oder im Chat: Was habe ich gemacht? Was mache ich als Nächstes? Was blockiert mich?
 - **Sprint Review:** Ergebnis zeigen, PO nimmt Stories ab
