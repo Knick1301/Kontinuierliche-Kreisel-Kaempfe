@@ -1,4 +1,4 @@
-# Kontinuierliche Kreisel-Kämpfe 🌀
+# Kontinuierliche Kreisel-Kämpfe
 
 Ein Online-Multiplayer-Spiel, in dem Spieler ihre eigenen Kampfkreisel zusammenstellen und in einer Arena gegeneinander antreten.
 
@@ -23,7 +23,7 @@ Projekt im Rahmen der Vorlesung **Software Engineering** (3. und 4. Semester) an
 
 ## Tech-Stack
 
-_Wird noch festgelegt._ (Frontend, Backend, Datenbank, Test-Framework, CI/CD)
+Vue + Tailwind.css, Java-Backend, _Datenbank, Test-Framework und CI/CD stehen noch aus_
 
 ## Projektorganisation
 
