@@ -1,0 +1,37 @@
+# Abhängigkeiten
+node_modules/
+vendor/
+.venv/
+venv/
+__pycache__/
+
+# Build-Ergebnisse
+dist/
+build/
+out/
+target/
+*.class
+
+# Umgebungsvariablen und Geheimnisse – NIE committen
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test-Coverage
+coverage/
+.nyc_output/
+
+# IDEs
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.iml
+
+# Betriebssystem
+.DS_Store
+Thumbs.db
+desktop.ini
