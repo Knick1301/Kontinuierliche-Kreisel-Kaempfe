@@ -19,6 +19,7 @@ Projekt im Rahmen der Vorlesung **Software Engineering** (3. und 4. Semester) an
 | _TODO_ | Development Team | |
 | _TODO_ | Development Team | |
 | _TODO_ | Development Team | |
+| _TODO_ | Documentation | |
 
 ## Tech-Stack
 
