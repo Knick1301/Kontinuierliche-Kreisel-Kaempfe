@@ -1,0 +1,32 @@
+name: Bug
+description: Einen Fehler melden
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: beschreibung
+    attributes:
+      label: Was ist passiert?
+    validations:
+      required: true
+  - type: textarea
+    id: schritte
+    attributes:
+      label: Schritte zum Reproduzieren
+      placeholder: |
+        1. Spiel öffnen
+        2. Arena betreten
+        3. …
+    validations:
+      required: true
+  - type: textarea
+    id: erwartet
+    attributes:
+      label: Was hätte passieren sollen?
+    validations:
+      required: true
+  - type: input
+    id: umgebung
+    attributes:
+      label: Umgebung
+      placeholder: z. B. Chrome 130, Windows 11, Branch main

@@ -1,0 +1,22 @@
+name: Aufgabe
+description: Technische Aufgabe oder Teil einer User Story (z. B. Doku, Setup, UML-Diagramm)
+title: "[Task] "
+labels: ["task"]
+body:
+  - type: textarea
+    id: beschreibung
+    attributes:
+      label: Was ist zu tun?
+    validations:
+      required: true
+  - type: input
+    id: story
+    attributes:
+      label: Gehört zu User Story
+      placeholder: "#12"
+  - type: textarea
+    id: erledigt
+    attributes:
+      label: Wann ist die Aufgabe erledigt?
+      placeholder: |
+        - [ ] …

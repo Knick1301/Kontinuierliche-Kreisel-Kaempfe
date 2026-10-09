@@ -1,0 +1,63 @@
+name: User Story
+description: Neue Funktion aus Sicht eines Nutzers beschreiben
+title: "[Story] "
+labels: ["user-story"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Schema: **Als [Persona] möchte ich [Softwareziel], um [Ergebnis] zu erreichen.**
+  - type: input
+    id: persona
+    attributes:
+      label: Als …
+      description: Wer will das? (z. B. Spieler, neuer Spieler, Admin)
+      placeholder: Spieler
+    validations:
+      required: true
+  - type: input
+    id: ziel
+    attributes:
+      label: möchte ich …
+      description: Was soll die Software können?
+      placeholder: meinen Kreisel vor dem Kampf aus Einzelteilen zusammenstellen
+    validations:
+      required: true
+  - type: input
+    id: ergebnis
+    attributes:
+      label: um … zu erreichen.
+      description: Welchen Nutzen hat das?
+      placeholder: eine eigene Kampfstrategie zu haben
+    validations:
+      required: true
+  - type: textarea
+    id: akzeptanzkriterien
+    attributes:
+      label: Akzeptanzkriterien
+      description: Woran erkennen wir, dass genau diese Story erfüllt ist?
+      placeholder: |
+        - [ ] Spieler kann je ein Teil pro Kategorie auswählen
+        - [ ] Gesamtwerte des Kreisels werden angezeigt
+    validations:
+      required: true
+  - type: dropdown
+    id: story-points
+    attributes:
+      label: Story Points (Schätzung per Planning Poker)
+      options:
+        - "noch nicht geschätzt"
+        - "1"
+        - "2"
+        - "3"
+        - "5"
+        - "8"
+        - "13"
+        - "21 – zu groß, bitte aufteilen"
+    validations:
+      required: true
+  - type: textarea
+    id: notizen
+    attributes:
+      label: Notizen / Abhängigkeiten
+      description: Mockups, Links, verwandte Issues
